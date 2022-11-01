@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-size: 15pt;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to bottom, #CECECE, #888888);
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  margin-top: 15px;
+  max-width: 600px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+hr {
+  width: 460px;
+  margin: auto;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #0096C7, #0077B6);
+  color: white;
+  height: 180px;
+  box-shadow: 1px 0px 10px #00000075;
+}
+
+h1#head {
+  min-width: 5px;
+  max-width: 600px;
+  text-align: center;
+  
+  margin: auto;
+  margin-top: 40px;
+}
+
+nav {
+  background-color: #005f92;
+  padding: 10px 20px 10px 20px;
+}
+
+header>nav>a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  text-align: center;
+  transition: 0.2s;
+  font-weight: bold;
+}
+
+header>nav>a:hover {
+  background: #007ca5;
+}
+
+a#marca {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  background-color: white;
+  width: 480px;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+main>h1 {
+  text-align: center;
+}
+
+main>a {
+  display: block;
+  background-color: #9470e9;
+  font-size: 27px;
+  text-align: center;
+  width: 400px;
+  font-weight: bold;
+  border-radius: 15px;
+  margin: auto;
+  margin-top: 20px;
+  box-shadow: 1px 0px 3px #0000007c;
+  padding: 10px 0px 10px 0px;
+  transition: 0.2s;
+}
+
+main>a:hover {
+  background-color: #7558b8;
+  
+}
+
+a#teste {
+  background-image: linear-gradient(to bottom, #0096C7, #005f92);
+  width: 450px;
+  padding: 20px 0px 20px 0px;
+  border-radius: 50px;
+  margin-top: 40px;
+}
+
+a#teste:hover {
+  background-image: linear-gradient(to top, #0096C7, #005f92);
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+  padding: 10px;
+}
+
+footer>a {
+  text-decoration: none;
+  color: #73CFFF;
+}
